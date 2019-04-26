@@ -16,7 +16,7 @@ environment:
     WARNINGS_ARE_ERRORS: 0
     USE_RTOOLS: true
     R_CHECK_INSTALL_ARGS: "--install-args=--build --no-multiarch "
-    PKGTYPE: binary
+    R_REMOTES_STANDALONE: true
   matrix:
     - R_VERSION: 3.5.0
 
